@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  width: 95%;
+  background: #bad1c2;
+  margin: 30vh auto;
+  border-style: groove;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.greet {
+  text-align: center;
+  font-family: "Fasthand", cursive;
+  font-size: 3rem;
+}
+
+.border {
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  min-height: 200px;
+  border: 8px solid;
+  padding: 1rem;
+}
+
+.radial-repeating {
+  border-width: 20px;
+  border-image: repeating-radial-gradient(
+      circle at 10px,
+      turquoise,
+      pink 2px,
+      greenyellow 4px,
+      pink 2px
+    )
+    1;
+}
