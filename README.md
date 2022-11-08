@@ -7,7 +7,7 @@ Accurate TIme, Accurate Watch
 
 ## What is the use of this Repo
 
-This Project is a Note taking app similar to Google Keep made using Create-React-App.
+This Project is a Digital clock made using Create-React-App.
 
 ## Prerequisites
 
